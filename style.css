@@ -1,7 +1,122 @@
+
+body, h1, h2, p,ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+background-image:url(bg.jpeg);
+
+}
+.logo{ border-radius: 70px;
+    }
+
+header {
+    background-color: #9b847f;
+    color:#fff;
+    padding: 10px;
+
+}
+nav ul{background-color: #9b847f;
+color: white;
+display: flex;
+justify-content: space-around;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+
+.section {
+    padding: 20px;
+    margin: 10px ;
+    width: 350px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+#about {
+    width: 550px;
+    height: 250px;
+    background-color: #e3cfcd;
+    border-style:solid ;
+    border-color: #9b847f;
+    border-radius: 50px;
+}
+
+ #contact {
+    background-color: #e3cfcd;
+    border-style: solid;
+    border-color: #9b847f;
+    border-radius: 50px;
+    height: 100px;
+}
+#projects {
+    background-color: #e3cfcd;
+    border-style: solid;
+    border-color: #9b847f;
+    border-radius: 50px;
+    height: 50px;
+}
+#skills {
+    background-color: #e3cfcd;
+    border-style: solid;
+    border-color: #9b847f;
+    border-radius: 50px;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#Interests {
+    background-color: #e3cfcd;
+    font-style: Arial, sans-serif ;
+    border-style: solid;
+    border-color: #9b847f;
+    border-radius: 50px;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.profile-img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    display: flex;
+}
+
+
+.project {
+    margin-bottom: 20px;
+}
+
+
 body {
-    background-image: url ("BG.jpg");  
-    background-repeat:no-repeat; 
-    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    background-image: url("Project/bg.jpeg");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    
+}
+.D{
+    text-align: center;
+    border-radius: 70px;
+    border-style: dashed;
+    border-color: #9b847f;
+    margin: 10px;
+    width: 300px;
    
 }
-p{color: blueviolet;}
